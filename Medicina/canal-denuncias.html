@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Canal de Denúncias — relate condutas antiéticas, irregularidades ou violações de forma sigilosa e, se preferir, anônima.">
+
+  <meta name="theme-color" content="#0f3d2a">
+
+  <title>Canal de Denúncias</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="legal.css">
+</head>
+
+<body>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="header" id="inicio">
+    <div class="container nav-wrap">
+
+      <a class="brand" href="index.html" aria-label="Medicina - início">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#o-que-denunciar">O que denunciar</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#sigilo">Sigilo e proteção</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="index.html">← Site institucional</a>
+
+        <button class="theme-toggle" type="button" id="themeToggle" aria-label="Ativar tema escuro" aria-pressed="false"
+          title="Alternar tema">
+          <span class="theme-icon theme-sun" aria-hidden="true">☼</span>
+          <span class="theme-icon theme-moon" aria-hidden="true">☾</span>
+        </button>
+
+        <a href="#denuncia" class="nav-cta">
+          Fazer denúncia <span>↗</span>
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero hero-simple">
+
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy reveal">
+
+          <div class="breadcrumb">
+            <a href="index.html"></a>
+            <span>/</span>
+            <span>Canal de Denúncias</span>
+          </div>
+
+          <div class="eyebrow" style="justify-content:center">
+            <span class="pulse"></span>
+            Ética, integridade e conformidade
+          </div>
+
+          <h1>
+            Viu algo errado?
+            <em>Você pode denunciar com segurança.</em>
+          </h1>
+
+          <p class="hero-text">
+            O Canal de Denúncias da Medicina existe para que colaboradores,
+            clientes, fornecedores e parceiros relatem condutas antiéticas,
+            irregularidades ou violações de normas — de forma sigilosa e,
+            se preferir, totalmente anônima.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#denuncia" class="btn btn-primary">
+              Fazer uma denúncia
+              <span>→</span>
+            </a>
+
+            <a href="#como-funciona" class="text-link">
+              Entender como funciona <span>→</span>
+            </a>
+          </div>
+
+          <div class="meta-badges">
+            <span class="meta-badge">Sigilo garantido</span>
+            <span class="meta-badge">Denúncia anônima opcional</span>
+            <span class="meta-badge">Sem retaliação</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         O QUE PODE SER DENUNCIADO
+    ========================== -->
+    <section class="section" id="o-que-denunciar">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-tag">01 — Escopo</span>
+            <h2>O que pode ser <span>denunciado?</span></h2>
+          </div>
+
+          <p>
+            Use o canal para relatar qualquer situação que viole a lei, o
+            código de conduta ou os valores da Medicina.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <div class="service-card reveal">
+            <span class="service-number">01</span>
+            <div class="service-icon">⚖</div>
+            <h3>Assédio e discriminação</h3>
+            <p>Assédio moral, sexual, discriminação de qualquer natureza
+              ou desrespeito no ambiente de trabalho.</p>
+          </div>
+
+          <div class="service-card reveal delay-1">
+            <span class="service-number">02</span>
+            <div class="service-icon">🛈</div>
+            <h3>Privacidade e dados (LGPD)</h3>
+            <p>Vazamento, uso indevido ou acesso não autorizado a dados
+              pessoais e informações de saúde.</p>
+          </div>
+
+          <div class="service-card reveal delay-2">
+            <span class="service-number">03</span>
+            <div class="service-icon">◇</div>
+            <h3>Fraude e corrupção</h3>
+            <p>Suborno, favorecimento indevido, desvio de recursos ou
+              fraude em processos internos.</p>
+          </div>
+
+          <div class="service-card reveal delay-3">
+            <span class="service-number">04</span>
+            <div class="service-icon">⬡</div>
+            <h3>Segurança do trabalho</h3>
+            <p>Descumprimento de normas de saúde e segurança ocupacional
+              que coloquem pessoas em risco.</p>
+          </div>
+
+          <div class="service-card reveal">
+            <span class="service-number">05</span>
+            <div class="service-icon">↗</div>
+            <h3>Conflito de interesses</h3>
+            <p>Situações em que interesses pessoais se sobrepõem aos da
+              empresa ou dos clientes.</p>
+          </div>
+
+          <div class="service-card reveal delay-1">
+            <span class="service-number">06</span>
+            <div class="service-icon">✋</div>
+            <h3>Outras irregularidades</h3>
+            <p>Qualquer outra conduta que fira a lei, o código de conduta
+              ou os valores da Medicina.</p>
+          </div>
+
+        </div>
+
+        <div class="info-box warn reveal">
+          <span class="info-icon">⚠</span>
+          <div>
+            <h4>Este não é um canal de emergência</h4>
+            <p>
+              Em caso de risco imediato à vida ou à integridade física,
+              acione primeiro os serviços de emergência (SAMU 192, Polícia
+              190 ou Corpo de Bombeiros 193) e, em seguida, registre a
+              denúncia por aqui se aplicável.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         COMO FUNCIONA
+    ========================== -->
+    <section class="section process" id="como-funciona">
+      <div class="container">
+
+        <div class="section-heading centered reveal">
+          <span class="section-tag">02 — Processo</span>
+          <h2>
+            Da denúncia<br>
+            <span>ao retorno.</span>
+          </h2>
+        </div>
+
+        <div class="process-line"></div>
+
+        <div class="process-grid">
+
+          <div class="step reveal">
+            <span>01</span>
+            <div class="step-icon">✎</div>
+            <h3>Você relata</h3>
+            <p>Preenche o formulário com o máximo de detalhes possível,
+              identificado ou anônimo.</p>
+          </div>
+
+          <div class="step reveal delay-1">
+            <span>02</span>
+            <div class="step-icon">◎</div>
+            <h3>Recebemos com sigilo</h3>
+            <p>A denúncia chega apenas aos responsáveis pela apuração,
+              com acesso restrito.</p>
+          </div>
+
+          <div class="step reveal delay-2">
+            <span>03</span>
+            <div class="step-icon">⚖</div>
+            <h3>Analisamos e apuramos</h3>
+            <p>O relato é avaliado e, quando necessário, apurado
+              internamente com isenção.</p>
+          </div>
+
+          <div class="step reveal delay-3">
+            <span>04</span>
+            <div class="step-icon">↗</div>
+            <h3>Damos retorno</h3>
+            <p>Se você se identificou e deixou contato, retornamos com o
+              possível dentro do sigilo do caso.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         SIGILO E PROTEÇÃO
+    ========================== -->
+    <section class="section about" id="sigilo">
+      <div class="container split reveal">
+
+        <div>
+          <span class="section-tag">03 — Compromisso</span>
+          <h2>Sigilo e proteção <span>contra retaliação.</span></h2>
+
+          <p>
+            A Medicina garante sigilo sobre a identidade de quem
+            denuncia de boa-fé e não tolera qualquer forma de retaliação
+            contra quem utiliza este canal.
+          </p>
+
+          <div class="values">
+
+            <div>
+              <span>01</span>
+              <strong>Identidade protegida</strong>
+              <small>
+                Acesso restrito aos responsáveis pela apuração.
+              </small>
+            </div>
+
+            <div>
+              <span>02</span>
+              <strong>Anonimato opcional</strong>
+              <small>
+                Você não é obrigado a se identificar.
+              </small>
+            </div>
+
+            <div>
+              <span>03</span>
+              <strong>Sem retaliação</strong>
+              <small>
+                Vedada qualquer represália a quem denuncia.
+              </small>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="info-box reveal">
+          <span class="info-icon">🛈</span>
+          <div>
+            <h4>Denúncias de má-fé</h4>
+            <p>
+              Pedimos que os relatos sejam feitos de boa-fé, com
+              informações verdadeiras na medida do seu conhecimento.
+              Denúncias comprovadamente falsas ou feitas com intenção de
+              prejudicar terceiros podem ser desconsideradas.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =========================
+         FORMULÁRIO DE DENÚNCIA
+    ========================== -->
+    <section class="cta-section" id="denuncia">
+
+      <div class="cta-glow"></div>
+
+      <div class="container cta-grid">
+
+        <div class="cta-copy reveal">
+
+          <span class="section-tag light">
+            04 — Registrar denúncia
+          </span>
+
+          <h2>
+            Conte o que
+            <em>aconteceu.</em>
+          </h2>
+
+          <p>
+            Quanto mais detalhes você compartilhar — datas, locais,
+            pessoas envolvidas e evidências — mais fácil será apurar o
+            caso com precisão.
+          </p>
+
+        </div>
+
+        <form class="contact-form reveal delay-1" id="contactForm"
+          action="https://formsubmit.co/ajax/felipep2907@gmail.com" method="POST">
+
+          <!-- Configurações do FormSubmit -->
+          <input type="hidden" name="_subject" value="Nova denúncia — Canal de Denúncias Medicina">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+
+          <label>
+            Tipo de denúncia
+            <select name="tipo_denuncia" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="Assédio ou discriminação">Assédio ou discriminação</option>
+              <option value="Privacidade e dados (LGPD)">Privacidade e dados (LGPD)</option>
+              <option value="Fraude ou corrupção">Fraude ou corrupção</option>
+              <option value="Segurança do trabalho">Segurança do trabalho</option>
+              <option value="Conflito de interesses">Conflito de interesses</option>
+              <option value="Outra">Outra irregularidade</option>
+            </select>
+          </label>
+
+          <label>
+            Relato da denúncia
+            <textarea name="mensagem" rows="5"
+              placeholder="Descreva o que ocorreu: quando, onde, quem esteve envolvido e se há evidências."
+              required></textarea>
+          </label>
+
+          <div class="form-row">
+
+            <label>
+              Nome (opcional)
+              <input type="text" name="nome" placeholder="Deixe em branco para denúncia anônima" autocomplete="name">
+            </label>
+
+            <label>
+              E-mail para retorno (opcional)
+              <input type="email" name="email" placeholder="seu@email.com" autocomplete="email">
+            </label>
+
+          </div>
+
+          <label class="form-check">
+            <input type="checkbox" name="ciencia" value="Li e entendi como o canal funciona" required>
+            Li e entendo que posso denunciar anonimamente e que a
+            Medicina não tolera retaliação a quem utiliza este canal.
+          </label>
+
+          <button class="btn btn-light" type="submit">
+            Enviar denúncia
+            <span>→</span>
+          </button>
+
+          <p class="form-note" id="formMessage" role="status"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FAQ
+    ========================== -->
+    <section class="section faq" id="faq">
+      <div class="container">
+
+        <div class="section-heading centered reveal">
+          <span class="section-tag">05 — Dúvidas frequentes</span>
+          <h2>Perguntas sobre <span>o canal de denúncias.</span></h2>
+        </div>
+
+        <div class="faq-list">
+
+          <details class="reveal">
+            <summary>Preciso me identificar para denunciar?</summary>
+            <p>
+              Não. Você pode deixar os campos de nome e e-mail em branco e
+              enviar a denúncia de forma totalmente anônima. Se quiser
+              receber um retorno, é necessário deixar um e-mail de
+              contato.
+            </p>
+          </details>
+
+          <details class="reveal">
+            <summary>Quem tem acesso às denúncias recebidas?</summary>
+            <p>
+              Apenas os responsáveis pela apuração interna têm acesso ao
+              conteúdo das denúncias, mantendo o sigilo sobre a identidade
+              de quem relata, quando informada.
+            </p>
+          </details>
+
+          <details class="reveal">
+            <summary>Posso ser prejudicado por denunciar?</summary>
+            <p>
+              Não. A Medicina veda qualquer forma de retaliação contra
+              quem utiliza este canal de boa-fé.
+            </p>
+          </details>
+
+          <details class="reveal">
+            <summary>O canal também recebe dúvidas sobre a LGPD?</summary>
+            <p>
+              Para dúvidas gerais sobre privacidade e proteção de dados,
+              consulte nosso <a href="privacidade.html">Portal de
+                Privacidade</a>. Use este canal especificamente para relatar
+              violações e condutas irregulares.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+      <div class="footer-brand">
+
+        <p>
+          Medicina ocupacional com tecnologia,
+          cuidado e proximidade.
+        </p>
+
+      </div>
+      <div class="footer-column">
+
+        <h4>Navegação</h4>
+
+        <nav class="footer-links" aria-label="Navegação do rodapé">
+
+          <a href="index.html">
+            Site institucional
+          </a>
+
+          <a href="guia-sst.html">
+            Guia SST
+          </a>
+
+          <a href="privacidade.html">
+            Portal de Privacidade
+          </a>
+
+          <a href="canal-denuncias.html">
+            Canal de Denúncias
+          </a>
+
+          <a href="index.html#contato">
+            Contato
+          </a>
+
+        </nav>
+
+      </div>
+
+      <div class="footer-column">
+      </div>
+      <div class="footer-column">
+
+        <h4>Horários</h4>
+
+        <div class="footer-info">
+
+          <strong>Segunda á sexta</strong>
+
+          <span>
+            07:00h às 17:00h<br>
+          </span>
+        </div>
+
+      </div>
+      <div class="footer-column footer-address">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+      <span>
+        © <span id="year"></span>
+        Medicina Medicina Ocupacional.
+        Todos os direitos reservados.
+      </span>
+
+      <nav class="footer-legal" aria-label="Links legais">
+        <a href="privacidade.html">Portal de Privacidade (LGPD)</a>
+        <span class="dot">·</span>
+        <a href="canal-denuncias.html">Canal de Denúncias</a>
+      </nav>
+
+    </div>
+
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/5513991034244" target="_blank" rel="noopener"
+    aria-label="Falar pelo WhatsApp">
+    <span class="whatsapp-flutuante">
+      <img src="assets/whatsapp-png-logo-1.png" alt="WhatsApp Logo">
+    </span>
+  </a>
+  <script src="script.js"></script>
+</body>
+
+</html>
